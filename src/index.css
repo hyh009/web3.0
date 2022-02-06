@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.gradient-bg-welcome {
+  background-color: rgba(18, 9, 31, 1);
+  background: radial-gradient(
+      circle at 50% 30%,
+      rgba(53, 50, 136, 0.5),
+      rgba(56, 86, 151, 0) 60.71%
+    ),
+    radial-gradient(
+        circle at 99.3% 10%,
+        rgba(17, 109, 214, 0.5),
+        rgba(0, 255, 0, 0) 40.71%
+      )
+      rgba(18, 9, 31, 1);
+}
+
+.gradient-bg-services {
+  background-color: rgba(18, 9, 31, 1);
+  background: radial-gradient(
+      circle at 70% 50%,
+      rgba(53, 50, 136, 0.4),
+      rgba(56, 86, 151, 0) 30.71%
+    ),
+    radial-gradient(
+        circle at 10.3% 90%,
+        rgba(17, 109, 214, 0.3),
+        rgba(0, 255, 0, 0) 20.71%
+      )
+      rgba(18, 9, 31, 1);
+}
+
+.gradient-bg-transactions {
+  background-color: rgba(18, 9, 31, 1);
+  background: radial-gradient(
+      circle at 70% 80%,
+      rgba(53, 50, 136, 0.4),
+      rgba(56, 86, 151, 0) 50.71%
+    ),
+    radial-gradient(
+        circle at 10.3% 0%,
+        rgba(17, 109, 214, 0.3),
+        rgba(0, 255, 0, 0) 20.71%
+      )
+      rgba(18, 9, 31, 1);
+}
+
+.gradient-bg-footer {
+  background-color: rgba(18, 9, 31, 1);
+  background: radial-gradient(
+      circle at 70% 80%,
+      rgba(53, 50, 136, 0.4),
+      rgba(56, 86, 151, 0) 10.71%
+    ),
+    rgba(18, 9, 31, 1);
+}
+
+.blue-glassmorphism {
+  background: rgba(41, 13, 59, 0.8);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.white-glassmorphism {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.eth-card {
+  background-color: #a099ff;
+
+  background: radial-gradient(
+      circle at 50% 0,
+      rgba(255, 149, 28, 0.75),
+      rgba(255, 0, 0, 0) 70.71%
+    ),
+    radial-gradient(
+      circle at 7% 55%,
+      rgba(108, 5, 128, 0.75),
+      rgba(89, 135, 196, 0) 70.71%
+    ),
+    radial-gradient(
+        circle at 95% 40%,
+        rgba(17, 109, 214, 0.75),
+        rgba(0, 255, 0, 0) 80.71%
+      )
+      beige;
+}
+
+.text-gradient {
+  background-color: #eee;
+  background: radial-gradient(#eee, rgba(180, 180, 180, 1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
